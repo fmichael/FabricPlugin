@@ -11,6 +11,8 @@ buildscript {
   }
 }
 
+apply plugin: 'io.fabric'
+
 android {
     defaultConfig {
         applicationId packageName
